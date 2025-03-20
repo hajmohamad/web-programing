@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'IRANyekan';
+    src: url('Font/IRANyekan.ttf') format('truetype');
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'IRANyekan', sans-serif;
+
+}
+
+.header {
+    border-bottom: 1px solid #b3a3a3;
+}
+
+.first-header {
+    background-color: #A72F3B;
+
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.first-header-text {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'IRANyekan', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'IRANyekan', sans-serif;
+    
+}
+
+button {
+    font-family: 'IRANyekan', sans-serif;
+}
+
+.main-Header {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-header {
+
+    margin-left: 150px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.shoppingcart {
+
+    width: 100px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.shoppingcart-icon {
+    margin-left: 4px;
+}
+
+.login-icon {
+    margin-left: 5px;
+}
+
+.center-header {
+    position: relative;
+}
+
+.searchbar {
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #b3a3a3;
+    font-family: 'IRANyekan', sans-serif;
+    text-align: right;
+    font-size: 15px;
+    padding-right: 10px;
+    margin-right: 100px;
+    position: relative;
+
+}
+
+.search-icon {
+    position: absolute;
+    bottom: 11px;
+    left: 11px;
+}
+
+.header-logo {
+    margin-right: 30px;
+}
+
+
+.footer {
+    background-color: #641C23;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.first-footer {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.first-footer-right {
+
+    height: 68px;
+    justify-content: flex;
+    align-items: right;
+    display: inline;
+    margin-right: 5%;
+
+
+
+}
+
+.first-footer-right-text {
+    color: white;
+    font-size: 15px;
+    font-family: 'IRANyekan', sans-serif;
+}
+
+.first-footer-left {
+    margin-left: 10%;
+}
+
+.email-input-text {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #b3a3a3;
+    font-family: 'IRANyekan', sans-serif;
+    text-align: right;
+    font-size: 15px;
+    padding-right: 10px;
+    background-color: transparent;
+}
+
+.email-input-button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #A72F3B;
+    color: white;
+    font-size: 15px;
+    font-family: 'IRANyekan', sans-serif;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialmedia-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.first-footer-left {
+    margin-left: 15%;
+}
+
+.first-footer-left-text {
+    color: white;
+}
+
+.second-footer {
+    width: 100%;
+    height: 450px;
+    margin-top: 40px;
+    background-color: #A72F3B;
+     display: flex;
+    justify-content: right;
+    align-items: center; 
+    gap: 100px;
+ 
+
+}
+.second-footer> div:first-child {
+    margin-right: 5%;
+}
+.second-footer-part {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    gap: 20;
+}
+
+.footer-text-header {
+    color: white;
+    font-size: 20px;
+    font-family: 'IRANyekan', sans-serif;
+    border-bottom: 1px solid #b3a3a3;
+}
+
+.footerButton {
+    height: 40px;
+    width: 200px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-family: 'IRANyekan', sans-serif;
+    text-align: right;
+    margin-top: 10px;
+
+}
+
+.second-footer-left {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;  
+    margin-right: 10%; 
+
+}
+
+.second-footer-left h1 {
+    color: white;
+
+}
+.second-footer-left-mid> p:nth-child(2){
+margin-left: 50px;
+}
+.second-footer-left p {
+    color: white;
+    font-size: 15px;
+    font-family: 'IRANyekan', sans-serif;
+}
+
+.second-footer-left-mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+ 
+}
+.second-footer-left-icone {
+    margin-top: 80px;
+
+    }
+.footer-icon {
+    width: 70px;
+    height: 84px;
+
+    margin-left: 40px;
+}

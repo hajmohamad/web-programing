@@ -1,0 +1,110 @@
+
+.menubar {
+
+    background-color: #ffffff;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 60px;
+}
+
+.you-desin-it-logo {
+    height: 40px;
+}
+
+.maincontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 84%;
+    margin: 0 8%;
+}
+
+.menubar-button {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 15px;
+    font-family: 'IRANyekan', sans-serif;
+}
+
+.menubar-button:hover {
+    background-color: #A72F3B;
+    color: white;
+}
+
+.slider {
+
+    background-color: #EDD5D8;
+    width: 100%;
+    height: 400px;
+    margin-top: 15px;
+    border-radius: 25px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    /* برای نگه داشتن موقعیت absolute درونش */
+
+}
+
+.slider-text {
+    position: absolute;
+
+    margin-right: 5%;
+    margin-top: 0;
+    display: flex;
+    width: 35%;
+    justify-content: center;
+    align-items: right;
+    flex-direction: column;
+}
+
+.slider-image {
+    position: absolute;
+    left: 0;
+    height: 100%;
+
+}
+
+.slider-header {
+    font-size: 20;
+}
+
+.slider-paragraph {
+    font-size: 17px;
+    margin-top: 0;
+}
+
+.slider-button {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 20px;
+
+
+}
+
+.slider-button1 {
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: #A72F3B;
+    color: white;
+    font-size: 15px;
+    font-family: 'IRANyekan', sans-serif;
+}
+
+.slider-button2 {
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 10%;
+    border-width: 1px;
+    background-color: transparent;
+}
