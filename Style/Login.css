@@ -1,0 +1,91 @@
+.right-Part{
+    width: 20%;
+    margin: 1rem 15% 0 15%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+
+}
+.maincontent{
+    display: flex;
+
+}
+.left-Part-image{
+    width: 30rem;
+    margin-right: 5rem;
+}
+.welcome-text{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.login-signup-text{
+    font-weight: bold;
+}
+.username-text{
+    margin-right: -58%;
+    font-size: 1rem;
+    color:   rgb(148, 148, 148);
+}
+.username{
+    margin-top: -1rem;
+    height: 1.4rem;
+    width: 82%;
+    border: 2px solid rgb(219, 216, 216);
+    border-radius: 0.5rem;
+}
+.password-text{
+    margin-right: -58%;
+    font-size: 1rem;
+    color:   rgb(148, 148, 148);
+}
+.password{
+    margin-top: -1rem;
+    height: 1.4rem;
+    width: 82%;
+    border: 2px solid rgb(219, 216, 216);
+    border-radius: 0.5rem;
+}
+.forgetpassword{
+    font-size: 0.8rem;
+    color: rgb(0, 140, 255);
+    margin-top: -0.2rem;
+    margin-left: -8.6rem;
+}
+.roleMessage{
+    white-space: nowrap;
+    font-size: 0.6rem;
+}
+.login-button{
+    
+    margin-top: 1rem;
+    width: 88%;
+
+    border-radius: 0.5rem;
+    height: 2rem;
+    border: 0;
+    color: wheat;
+    background-color: #A72F3B;
+}
+.login-withgoole{
+    position: relative;
+    margin-top: 1rem;
+    width: 88%;
+    border-radius: 0.5rem;
+    height: 2.1rem;
+    border: 1px solid gray;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    
+
+}
+.google-icon{
+    position: absolute;
+    right: 2.5rem;
+    width: 1.2rem;
+}
+.signup-text{
+    color: #A72F3B;
+}
