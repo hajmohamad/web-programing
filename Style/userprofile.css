@@ -1,0 +1,271 @@
+.page-name{
+    margin-right: 3%;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    white-space: nowrap;
+}
+
+.icon-text-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+
+}
+.menubar {
+
+    background-color: #ffffff;
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 60px;
+    margin-right: 3%;
+}
+.menubar-button {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 15px;
+    font-family: 'IRANyekan', sans-serif;
+    white-space: nowrap;
+}
+
+
+.you-desin-it-logo {
+    height: 40px;
+}
+.maincontent{
+    display: flex;}
+.right-Part{
+    width: 25%;
+    margin: 0 3% 0 3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+
+}
+.userinformation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0 0 0;
+    flex-wrap: nowrap;
+    
+}
+.userinformation > *{
+    padding: 0;
+    margin: 0.2rem 0 0 0;
+}
+
+
+.userimage{
+    width: 35%;
+}
+.see-more-text {
+    white-space: nowrap;
+    margin-left: 0.5rem;
+    color: #A72F3B;
+
+}
+.line {
+    width: 100%;
+    height: 0;
+    border: 1px solid #f5f4f4;
+    margin: 3px;
+    display: inline-block;
+}
+.line-white{
+    border: 1px solid #ffffff;
+
+}
+.userinformation-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    flex-wrap: nowrap;
+}
+.userinformation-grid > *{
+    padding: 0;
+    margin: 0.6rem 0 0 0;
+}
+.left-text{
+    text-align: left;
+}
+.button-box{
+    margin: 0.5rem 1.2rem 0 0;
+    width: 90%;
+    flex-wrap: nowrap;
+}
+.button-box > *{
+    padding: 0;
+    margin: 0 0 0 0;
+}
+.icon{
+    width: 1.5rem;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+}
+.left-side-button{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1.2rem;
+    text-align: right;
+    width: 90%;
+    border-bottom: 0.1rem solid rgb(221, 214, 214);
+    height: 3.5rem;
+
+    
+
+
+}
+.dashbord-button{
+    color: rgb(155, 37, 37);
+    border-bottom: 0.1rem solid rgb(243, 0, 0);
+
+}
+
+.button-box> :last-child{
+    border: none;
+}
+.left-Part{
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+    width: 75%;
+    margin-left: 5%;
+}
+.order-report-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    flex-wrap: nowrap;
+    margin: 0.5rem 4rem 0.5rem 0;
+    row-gap: 0.5rem;
+    grid-column-gap: 1px;
+
+
+    
+}
+.order-report-grid > div {
+    border-right: 1px solid #ccc;
+  }
+  
+
+.order-report-grid-part{
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+
+.order-report-grid-uptext{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2rem;
+    margin: 0.5rem 0 0 0;
+}
+.order-report-grid-uptext>p{
+   font-weight: bold;
+}
+.order-report-grid-uptext > img{
+    width: 1.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: -0.1rem;
+}
+.order-report-grid-part-down-text{
+    font-weight: lighter;
+    font-size: 0.7rem;
+    margin-right: 2.5rem;
+    margin-left: 0.5rem;
+    margin-top: -0.1rem;
+    white-space: nowrap;
+}
+.most-sell-items-box {
+    width: 100%;
+    height: 26rem;
+    margin-bottom: 40px;
+    position: relative;
+    overflow-x: auto; /* فعال‌سازی اسکرول افقی */
+    white-space: nowrap; /* جلوگیری از شکستن خط */
+    border: none;
+
+   
+}
+
+.see-more-text {
+    white-space: nowrap;
+    margin-right: 5px;
+    color: #A72F3B;
+}
+
+.most-sell-item-image {
+    width: 100%;
+    
+
+
+}
+
+.most-sell-item {
+    
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    height: 20rem;
+    padding: 20px 15px 3.3rem 15px;
+
+}
+
+.most-sell-item-text {
+    font-size: 15px;
+    margin: 0 0 0 10px;
+    font-weight: bolder;
+    white-space: nowrap;
+}
+
+.most-sell-item-info {
+    font-size: 12px;
+}
+
+.most-sell-item-price {
+    font-size: 15px;
+    font-weight: bolder;
+    white-space: nowrap;
+    text-align: left;
+
+
+}
+
+.most-sell-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 15px;
+    margin: 0 0.2rem 0 0.2rem;
+    position:absolute;
+    
+}
+
+.see-more-icon{
+    width: 2rem;
+    position: absolute;
+    left: -1.2rem;
+    top: 11rem;
+
+    
+
+}
+
