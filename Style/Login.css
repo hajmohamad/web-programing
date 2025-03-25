@@ -57,6 +57,7 @@
 .roleMessage{
     white-space: nowrap;
     font-size: 0.6rem;
+    font-weight: bold;
 }
 .login-button{
     
