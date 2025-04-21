@@ -164,3 +164,30 @@
     margin-right: 1rem;
     width: 100px;
   }
+  .circle{
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.maincontent-img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    direction: ltr;
+}
+  .maincontent-img-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 0.5rem;
+}
+.phoneinformation-img {
+    width: 3rem;
+}
+.maincontent-img-box .line{
+  border: 1px dashed gray;
+}
