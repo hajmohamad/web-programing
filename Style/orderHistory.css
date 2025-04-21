@@ -1,0 +1,85 @@
+p {
+    font-family: 'IRANyekan', sans-serif;
+    
+}
+.left-Part{
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+    width: 90%;
+}
+.order-type-text{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    
+}
+.order-type-box{
+    margin-right: 3%;
+    margin-left: 3%;
+    display: flex;
+    gap: 1rem;
+    border-bottom: 0.1rem solid gray;
+    
+}
+.orderbox{  
+  margin: 2% 3% 3% 3%;
+  border: 1px solid #C4C4C4;
+  border-radius: 1rem;
+  padding: 1rem;
+
+
+}
+.icon{
+    width: 2rem;
+}
+.order-status-box{
+    display: flex;
+    height: 3rem;
+    align-items: center;
+}
+.order-data{
+    display: flex;
+  
+}
+.gray{
+    color: gray;
+    font-size: medium;
+}
+.black{
+    color: #000000;
+    font-size: medium;
+    margin-right: 0.1rem;
+}
+.order-data-text-box{
+    display: flex;
+    margin-right: 2rem;
+}
+.order-img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    }
+.order-img{
+    width: 8rem;
+    margin-left: 1rem;
+
+}
+.order-img-box :last-child{
+    opacity: 0.5;
+
+}
+.see-factor-button{
+    height: 3rem;
+
+}
+.order-button{
+    display: flex;
+    justify-content: end;
+  
+}
+.right-Part{
+    margin-top: -15rem;
+    margin-right: -5rem;
+}

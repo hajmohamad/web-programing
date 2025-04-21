@@ -1,5 +1,5 @@
 .page-name{
-    margin-right: 3%;
+    margin-right: 10%;
     font-weight: bolder;
     font-size: 1.3rem;
     white-space: nowrap;
@@ -14,7 +14,10 @@
 
 }
 .maincontent{
-    display: flex;}
+    display: flex;
+margin-bottom: 5rem;
+flex-direction: row;
+}
 .right-Part{
     width: 25%;
     margin: 0 3% 0 3%;

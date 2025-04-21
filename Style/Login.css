@@ -10,11 +10,11 @@
 }
 .maincontent{
     display: flex;
+    flex-direction: row;
 
 }
 .left-Part-image{
     width: 30rem;
-    margin-right: 5rem;
 }
 .welcome-text{
     margin-top: 2rem;

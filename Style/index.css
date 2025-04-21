@@ -342,3 +342,19 @@ margin-left: 50px;
     
 }
 
+.maincontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    width: 85%;
+    right: 7%;
+}
+.line {
+    width: 100%;
+    height: 0;
+    border: 1px solid #f5f4f4;
+    margin: 3px;
+    display: inline-block;
+}
