@@ -320,3 +320,78 @@ font-size: small;
     font-size: medium;
     color: #ccc;
   }
+
+  /* دکمه اصلی */
+
+
+  /* پاپ‌آپ */
+  .modal {
+    display: none; /* مخفی پیش‌فرض */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); /* پس‌زمینه تار */
+  }
+
+  /* محتوای پاپ‌آپ */
+  .modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 40px;
+    border-radius: 10px;
+    width: 500px;
+    position: relative;
+  }
+.modal-content > h4{
+  color: #aaa;
+  margin-top: -1rem;
+}
+.modal-content > .score{
+  margin-top: -1rem;
+
+}
+.modal-content > label{
+  color: #aaa;
+
+}
+  /* دکمه بستن */
+  .close {
+    color: #aaa;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .close:hover {
+    color: black;
+  }
+
+  input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: px;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 0.5rem;
+  }
+
+  .submit-btn {
+    background-color: #b71c1c;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .open-modal-btn:hover{
+background-color: #A72F3B;
+color: #e2dada;
+  }

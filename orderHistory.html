@@ -9,25 +9,29 @@
     <link rel="stylesheet" href="Style/index.css">
     <link rel="stylesheet" href="Style/userprofileBase.css">
     <link rel="stylesheet" href="Style/orderHistory.css">
-
+   
 </head>
 
 <body>
-    <div class="header">
+       <div class="header">
+        <div class="first-header" >
+            <h1 class="first-header-text">با عضویت در کاستومی، اولین سفارش خود را ” رایگان” تحویل بگیرید</h1>
+        </div>
         <div class="main-Header">
-            <img src="Image/header/icon/header-logo.png" alt="لوگوی کاستومی" class="header-logo">
+            <img src="Image/header/icon/header-logo.png" onclick="window.location.href='/fistpage.html'" alt="لوگوی کاستومی" class="header-logo">
             <div class="center-header">
                 <input type="text" placeholder="جستجو" class="searchbar">
-                <img src="Image/search-vector.png" alt="جستجو" class="search-icon" height="25px" width="25px">
+                <img src="Image/header/icon/search-vector.png" alt="جستجو" class="search-icon" height="25px"
+                    width="25px">
 
             </div>
             <div class="left-header">
-                <div class="login">
-                    <img src="Image/header/icon/Login-vector.png" alt="ورود" class="login-icon" height="30px"
+                <div class="login" onclick="window.location.href='/login.html'">
+                    <img src="Image/header/icon/Login-vector.png"  alt="ورود" class="login-icon" height="30px"
                         width="30px">
                     <p> ورود| ثبت نام</p>
                 </div>
-                <div class="shoppingcart">
+                <div class="shoppingcart" onclick="window.location.href='/card-pay.html'">
                     <img src="Image/header/icon/shopping-cart-vector.png" alt="سبد خرید" class="shoppingcart-icon"
                         height="30px" width="30px">
                     <p>سبد خرید</p>
@@ -102,89 +106,171 @@
 
             </div>
         </div>
+      
         <div class="left-Part">
             <p class="page-name"> تاریخچه سفارشات</p>
             <div class="order-type-box">
-                <p class=" redline-button order-type-text">جاری 2</p>
-                <p  class="order-type-text" >تحویل شده 26</p>
-                <p class="order-type-text" >مرجوع شده 4 </p>
-                <p class="order-type-text" >لغو شده 4</p>
+                <p class="order-type-text active" data-tab="current">جاری 2</p>
+                <p class="order-type-text" data-tab="delivered">تحویل شده 26</p>
+                <p class="order-type-text" data-tab="returned">مرجوع شده 4</p>
+                <p class="order-type-text" data-tab="canceled">لغو شده 4</p>
             </div>
-            <div class="orderbox">
-                <div class="order-status-box">
-                    <img class="icon" src="Image\pages\userprofile\Lock 2.png"> 
-                    <p>درحال پردازش</p>
-                </div>
-                <div class="order-data">
-                    
-                    <p class="gray" > 3 شهریور 1401</p>
-            
-                <div class="order-data-text-box">
-                    <p class="gray">کد سفارش</p>
-                    <p class="black">354534521</p>
-                </div>
-                    <div class="order-data-text-box">
-                    <p class="gray"> مبلغ</p>
-                    <p class="black">545.000 تومان</p>
-                </div>
-                    <div class="order-data-text-box">
-                    <p class="gray">تخفیف</p>
-                    <p class="black">545.000 تومان</p>
-                </div>
-                </div>
-                <div class="line"></div>
-                <div class="order-img-box">
-                    <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
-                    <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
-                    <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
-                    <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
-                    <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
-                    <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
-                </div>
-                <div class="line"></div>
-                <div class="order-button">
-                <img class="see-factor-button" src="Image\pages\userprofile\Button.png" alt="">
-            </div>
-            </div>
-            <div class="orderbox">
-                <div class="order-status-box">
-                    <img class="icon" src="Image\pages\userprofile\Lock 2.png"> 
-                    <p>درحال پردازش</p>
-                </div>
-                <div class="order-data">
-                    
-                    <p class="gray" > 3 شهریور 1401</p>
-            
-                <div class="order-data-text-box">
-                    <p class="gray">کد سفارش</p>
-                    <p class="black">354534521</p>
-                </div>
-                    <div class="order-data-text-box">
-                    <p class="gray"> مبلغ</p>
-                    <p class="black">545.000 تومان</p>
-                </div>
-                    <div class="order-data-text-box">
-                    <p class="gray">تخفیف</p>
-                    <p class="black">545.000 تومان</p>
-                </div>
-                </div>
-                <div class="line"></div>
-                <div class="order-img-box">
-                    <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
-                    <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
-                    <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
-                    <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
-                    <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
-                    <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
-                </div>
-                <div class="line"></div>
-                <div class="order-button">
-                <img class="see-factor-button" src="Image\pages\userprofile\Button.png" alt="">
-            </div>
-            </div>
-        
-        </div>
 
+            <div class="orderbox active" data-content="current">
+                <div class="order-item">
+                    <div class="order-status-box">
+                        <img class="icon" src="Image\pages\userprofile\Lock 2.png"> 
+                        <p>درحال پردازش</p>
+                    </div>
+                    <div class="order-data">
+                        
+                        <p class="gray" > 3 شهریور 1401</p>
+                
+                    <div class="order-data-text-box">
+                        <p class="gray">کد سفارش</p>
+                        <p class="black">354534521</p>
+                    </div>
+                        <div class="order-data-text-box">
+                        <p class="gray"> مبلغ</p>
+                        <p class="black">545.000 تومان</p>
+                    </div>
+                        <div class="order-data-text-box">
+                        <p class="gray">تخفیف</p>
+                        <p class="black">545.000 تومان</p>
+                    </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="order-img-box">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                    </div>
+                    <div class="line"></div>
+                    <div class="order-button">
+                    <img class="see-factor-button" src="Image\pages\userprofile\Button.png" alt="">
+                </div>
+                </div> 
+            </div>
+            <div class="orderbox" data-content="delivered">
+                <div class="order-item">
+                    <div class="order-status-box">
+                        <img class="icon" src="Image\pages\userprofile\Lock 23.png"> 
+                        <p>تحویل شد </p>
+                    </div>
+                    <div class="order-data">
+                        
+                        <p class="gray" > 3 شهریور 1401</p>
+                
+                    <div class="order-data-text-box">
+                        <p class="gray">کد سفارش</p>
+                        <p class="black">354534521</p>
+                    </div>
+                        <div class="order-data-text-box">
+                        <p class="gray"> مبلغ</p>
+                        <p class="black">545.000 تومان</p>
+                    </div>
+                        <div class="order-data-text-box">
+                        <p class="gray">تخفیف</p>
+                        <p class="black">545.000 تومان</p>
+                    </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="order-img-box">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                    </div>
+                    <div class="line"></div>
+                    <div class="order-button">
+                    <img class="see-factor-button" src="Image\pages\userprofile\Button.png" alt="">
+                </div>
+                </div>           
+              </div>
+            <div class="orderbox" data-content="returned">
+                <div class="order-item">
+                    <div class="order-status-box">
+                        <img class="icon" src="Image\pages\userprofile\Lock 2.png"> 
+                        <p>مرجوع شد </p>
+                    </div>
+                    <div class="order-data">
+                        
+                        <p class="gray" > 3 شهریور 1401</p>
+                
+                    <div class="order-data-text-box">
+                        <p class="gray">کد سفارش</p>
+                        <p class="black">354534521</p>
+                    </div>
+                        <div class="order-data-text-box">
+                        <p class="gray"> مبلغ</p>
+                        <p class="black">545.000 تومان</p>
+                    </div>
+                        <div class="order-data-text-box">
+                        <p class="gray">تخفیف</p>
+                        <p class="black">545.000 تومان</p>
+                    </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="order-img-box">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                    </div>
+                    <div class="line"></div>
+                    <div class="order-button">
+                    <img class="see-factor-button" src="Image\pages\userprofile\Button.png" alt="">
+                </div>
+                </div>            
+             </div>
+            <div class="orderbox" data-content="canceled">
+                <div class="order-item">
+                    <div class="order-status-box">
+                        <img class="icon" src="Image\pages\userprofile\Lock 2.png"> 
+                        <p>لفو شد </p>
+                    </div>
+                    <div class="order-data">
+                        
+                        <p class="gray" > 3 شهریور 1401</p>
+                
+                    <div class="order-data-text-box">
+                        <p class="gray">کد سفارش</p>
+                        <p class="black">354534521</p>
+                    </div>
+                        <div class="order-data-text-box">
+                        <p class="gray"> مبلغ</p>
+                        <p class="black">545.000 تومان</p>
+                    </div>
+                        <div class="order-data-text-box">
+                        <p class="gray">تخفیف</p>
+                        <p class="black">545.000 تومان</p>
+                    </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="order-img-box">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                        <img class="order-img" src="Image\pages\userprofile\iphone.png" alt="">
+                    </div>
+                    <div class="line"></div>
+                    <div class="order-button">
+                    <img class="see-factor-button" src="Image\pages\userprofile\Button.png" alt="">
+                </div>
+                </div> 
+                  </div>
+                  <script src="orderHistory.js"></script>
+
+        </div>
     </div>
 
 

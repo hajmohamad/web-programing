@@ -8,15 +8,16 @@
     width: 85%;
     right: 7%;
 }
+.slider-part{
+    position:absolute;
+}
 .slider-text {
     position: absolute;
-
     margin-right: 5%;
     margin-top: 0;
     display: flex;
     width: 35%;
     justify-content: center;
-    align-items: right;
     flex-direction: column;
 }
 
@@ -28,7 +29,7 @@
 }
 
 .slider-header {
-    font-size: 20;
+    font-size: 20px;
 }
 
 .slider-paragraph {
@@ -128,8 +129,7 @@
 
 .most-sell-items-box {
     width: 100%;
-    margin-bottom: 40px;
-
+    
 }
 
 .see-more-text {
@@ -141,8 +141,6 @@
 .most-sell-item-image {
     width: 100%;
     
-
-
 }
 
 .most-sell-item {
@@ -151,9 +149,8 @@
     align-items: center;
     border: 1px solid #C4C4C4;
     border-radius: 10px;
-    height: 300px;
-    padding: 20px 15px 3.3rem 15px;
-
+    height:76%;
+    padding: 5% 10% 3.3rem 5%;
 }
 
 .most-sell-item-text {
@@ -179,7 +176,7 @@
 .most-sell-items {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 15px;
+    grid-gap: 2%;
     margin: 0 0.2rem 0 0.2rem;
     
 }
@@ -236,29 +233,32 @@
 
     width: 20px;
 }
+
+.popular-design{
+    width: 100%;
+}
 .popular-design-item{
-    justify-content: center;
-    align-items: center;
+   
     border: 1px solid #C4C4C4;
     border-radius: 10px;
-    height: 300px;
+    height: 75%;
     padding: 20px 15px 70px 15px;
+    
     position: relative;
 
 }
 .most-sell-item-box{
     display:flex;
     left: 1.2rem;
-    top: 15.3rem;
-    
+    bottom: 28%;
     position: absolute;
 
 }
 
 .most-sell-item-circle{
 
-    height: 1rem;
-    width: 1rem;
+    height: 1.2rem;
+    width: 1.2rem;
     background-color: #bbb;
     border-radius: 50%;
     border: 0.1rem solid #A72F3B;
@@ -463,4 +463,29 @@
   }
   .weedding-card-box .slider-button1{
     margin-right: 45%;
+  }
+
+  .gallery-box {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 5%;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+  }
+
+  .gallery-box img {
+    width: 100px;
+    height: 90px;
+    margin: 5px;
+    border-radius: 8px;
+  }
+
+  .gallery-box.active {
+    display: flex;
+    flex-wrap: wrap;
   }

@@ -6,7 +6,8 @@ p {
     border: 1px solid #C4C4C4;
     border-radius: 10px;
     padding-bottom: 1rem;
-    width: 90%;
+    width: 80%;
+    
 }
 .order-type-text{
     font-size: 1.5rem;
@@ -21,7 +22,7 @@ p {
     border-bottom: 0.1rem solid gray;
     
 }
-.orderbox{  
+.order-item{  
   margin: 2% 3% 3% 3%;
   border: 1px solid #C4C4C4;
   border-radius: 1rem;
@@ -62,7 +63,7 @@ p {
     
     }
 .order-img{
-    width: 8rem;
+    width: 7rem;
     margin-left: 1rem;
 
 }
@@ -80,6 +81,29 @@ p {
   
 }
 .right-Part{
-    margin-top: -15rem;
+    margin-top: rem;
     margin-right: -5rem;
+}
+.order-type-box {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.order-type-text {
+    padding: 8px 16px;
+    border-bottom: 2px solid transparent;
+}
+
+.order-type-text.active {
+    border-color: #c0392b;
+    color: #c0392b;
+}
+
+.orderbox {
+    display: none;
+}
+
+.orderbox.active {
+    display:flex;
 }

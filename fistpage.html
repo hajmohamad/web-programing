@@ -12,11 +12,11 @@
 
 <body>
     <div class="header">
-        <div class="first-header">
+        <div class="first-header" >
             <h1 class="first-header-text">با عضویت در کاستومی، اولین سفارش خود را ” رایگان” تحویل بگیرید</h1>
         </div>
         <div class="main-Header">
-            <img src="Image/header/icon/header-logo.png" alt="لوگوی کاستومی" class="header-logo">
+            <img src="Image/header/icon/header-logo.png" onclick="window.location.href='/fistpage.html'" alt="لوگوی کاستومی" class="header-logo">
             <div class="center-header">
                 <input type="text" placeholder="جستجو" class="searchbar">
                 <img src="Image/header/icon/search-vector.png" alt="جستجو" class="search-icon" height="25px"
@@ -24,12 +24,12 @@
 
             </div>
             <div class="left-header">
-                <div class="login">
-                    <img src="Image/header/icon/Login-vector.png" alt="ورود" class="login-icon" height="30px"
+                <div class="login" onclick="window.location.href='/login.html'">
+                    <img src="Image/header/icon/Login-vector.png"  alt="ورود" class="login-icon" height="30px"
                         width="30px">
                     <p> ورود| ثبت نام</p>
                 </div>
-                <div class="shoppingcart">
+                <div class="shoppingcart" onclick="window.location.href='/card-pay.html'">
                     <img src="Image/header/icon/shopping-cart-vector.png" alt="سبد خرید" class="shoppingcart-icon"
                         height="30px" width="30px">
                     <p>سبد خرید</p>
@@ -40,17 +40,52 @@
     </div>
     <div class="maincontent">
         <div class="menubar">
-
-
             <img src="Image/pages/fisrspage/you-desin-it-logo.png" alt="خودت طراحیش کن" class="you-desin-it-logo">
             <button class="menubar-button">پوشاک</button>
             <button class="menubar-button">لوازم‌خانه</button>
-            <button class="menubar-button">قاب موبایل</button>
+            <button class="menubar-button" onclick="toggleGallery()">قاب موبایل</button>
+            <script src="firstpage.js"></script>
             <button class="menubar-button">اکسسوری</button>
             <button class="menubar-button">مدرسه‌واداره</button>
             <button class="menubar-button">کارت‌وپوستر</button>
             <button class="menubar-button">جشن‌ومهمانی</button>
         </div>
+        <div id="gallery" class="gallery-box">
+            <div class="img-class">
+            <img src="Image\pages\fisrspage\Frame 26087459.png" alt="آیفون1">
+            <p style="text-align: center;"> موبایل </p>
+        </div>
+        <div class="img-class">
+            <img src="Image\pages\fisrspage\Frame 26087459.png" alt="آیفون1">
+            <p style="text-align: center;"> موبایل </p>
+        </div>  <div class="img-class">
+            <img src="Image\pages\fisrspage\Frame 26087459.png" alt="آیفون1">
+            <p style="text-align: center;"> موبایل </p>
+        </div>  <div class="img-class">
+            <img src="Image\pages\fisrspage\Frame 26087459.png" alt="آیفون1">
+            <p style="text-align: center;"> موبایل </p>
+        </div>  <div class="img-class">
+            <img src="Image\pages\fisrspage\Frame 26087459.png" alt="آیفون1">
+            <p style="text-align: center;"> موبایل </p>
+        </div>  <div class="img-class">
+            <img src="Image\pages\fisrspage\Frame 26087459.png" alt="آیفون1">
+            <p style="text-align: center;"> موبایل </p>
+        </div>  <div class="img-class">
+            <img src="Image\pages\fisrspage\Frame 26087459.png" alt="آیفون1">
+            <p style="text-align: center;"> موبایل </p>
+        </div>
+        <div class="img-class">
+            <img src="Image\pages\fisrspage\Frame 26087459.png" alt="آیفون1">
+            <p style="text-align: center;"> موبایل </p>
+        </div>
+        <div class="img-class">
+            <img src="Image\pages\fisrspage\Frame 26087459.png" alt="آیفون1">
+            <p style="text-align: center;"> موبایل </p>
+        </div>
+
+          </div>
+ 
+
         <div class="slider">
             <div class="slider-text">
                 <h1 class="slider-header">آنلاین شاپ کاستومی</h1>
@@ -208,7 +243,7 @@
                         ۱۵۰,۰۰۰
                         تومان
                     </p>
-
+                  
                 </div>
             </div>
         </div>
